@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verifikasi Akun</title>
+    <style>
+        @font-face {
+        font-family: Abeezee;
+        src: url('ABeeZee-Regular.otf');
+    }
+        #card{ background: #fbfbfb;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+        height: 365px;margin: 7rem auto 11.2rem auto; 
+        width: 350px;}
+
+        body{ background: -webkit-linear-gradient(bottom,cyan,white);}
+
+        #card-content {padding-top: 20px;
+        padding-left: 20px;}
+
+        .mid{display: block;
+        margin-left: 110px;
+        padding-bottom: 10px;}
+
+        #judul{font-family: Abeezee;
+        font-size: 32px;text-align: center;}
+
+        #desc{font-family: Abeezee;
+        font-size: 12px;
+        text-decoration: none;
+        padding-right: 20px;
+        padding-top: 5px;}
+
+        .center{text-align: center;margin-top: 5px;}
+
+        .form{margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: 100px;}
+
+        #form{border-radius: 6px;
+        border: 1px solid black;
+        height: 30px;
+        font-family: Abeezee;}
+
+        #button{width: 65px;
+        height: 30px;
+        border-radius: 6px;}
+
+        .button{display: inline-block;}
+
+        .back{background-color: #fbfbfb;
+        margin-top: 40px;
+        border: 1px solid black;
+        color: black;}
+
+        .next{margin-left: 175px;
+        background-color: #4586e8;
+        border: 1px solid #4586e8;
+        color: white;}
+
+        a{text-decoration: none;color: black;}
+
+    </style>
+</head>
+<body>
+    <div id="card">
+        <div id="card-content">
+            <img src="petani.png" class="mid" height="22">
+            <div id="judul">Verifikasi Akun</div>
+            <div id="desc">Masukkan Kode verifikasi yang telah dikirim ke nomor HP anda</div>
+            <form method="POST" class="form">
+                <input id="form" type="password" required placeholder=" Masukkan Kode">
+            </form>
+            <div id="desc" class="center">Apabila belum menerima kode verifikasi, <a href="Verifikasi.html">kirim ulang</a></div>
+            <div class="button">
+                <button id="button" class="back"><a href="Phone.html">Back</a></button>
+                <button id="button" class="next">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
