@@ -6,21 +6,22 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(bottom, cyan, white);
 }
 
 .regform {
-    width: 800px;
+    width: 750px;
     background-color: rgb(0, 143, 179, 0.6);
     margin: auto;
     color: white;
-    padding: 10px 0px 10px 0px;
+    padding: 10px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
 }
 
 .main {
-    background-color: rgb(51, 214, 255, 0.5);
-    width: 800px;
+    background-color: white;
+    width: 750px;
     margin: auto;
 }
 
@@ -35,23 +36,25 @@ body {
     width: 125px;
     color: black;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .firstname {
     position: relative;
     left: 200px;
     top: -20px;
-    line-height: 40px;
+    line-height: 25px;
     border-radius: 20px;
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 12px;
+    width: 200px;
 }
 
 .lastname {
     position: relative;
-    left: 450px;
-    top: -60px;
-    line-height: 40px;
+    left: 350px;
+    top: -50px;
+    line-height: 25px;
     border-radius: 20px;
     padding: 0 20px;
     font-size: 16px;
@@ -69,7 +72,7 @@ body {
     position: relative;
     text-transform: capitalize;
     font-size: 14px;
-    left: 220px;
+    left: 160px;
     top: -20px;
 }
 
@@ -77,40 +80,33 @@ body {
     position: relative;
     left: 200px;
     top: -30px;
-    line-height: 50px;
+    line-height: 25px;
     border-radius: 20px;
-    padding: 0 120px;
+    padding: 0 20px;
     font-size: 16px;
+    width: 500px;
 }
 
 .email {
     position: relative;
     left: 200px;
     top: -30px;
-    line-height: 50px;
+    line-height: 25px;
     border-radius: 20px;
-    padding: 0 120px;
+    padding: 0 20px;
     font-size: 16px;
-}
-
-.code {
-    position: relative;
-    left: 200px;
-    top: -30px;
-    line-height: 40px;
-    border-radius: 20px;
-    padding: 0 10px;
-    font-size: 16px;
+    width: 500px;
 }
 
 .number {
     position: relative;
     left: 200px;
     top: -30px;
-    line-height: 40px;
+    line-height: 25px;
     border-radius: 20px;
-    padding: 0 50px;
+    padding: 0 20px;
     font-size: 16px;
+    width: 300px;
 }
 
 .phone-number {
@@ -125,7 +121,7 @@ body {
     position: relative;
     left: 200px;
     top: -30px;
-    line-height: 20px;
+    line-height: 10px;
     border-radius: 20px;
     padding: 22px;
     font-size: 16px;
@@ -143,8 +139,9 @@ body {
     padding: 10px 110px;
     cursor: pointer;
     transition: 0.25px;
+    position: relative;
 }
 
 button:hover {
-    background-color: whitesmoke;
+    background-color: gray;
 }
