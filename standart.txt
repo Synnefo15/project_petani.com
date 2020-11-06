@@ -1,5 +1,5 @@
 ===font===
-name
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 
 
 ===warna=== 
@@ -12,3 +12,9 @@ biru
         box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
         height: 365px;margin: 7rem auto 11.2rem auto; 
         width: 350px;}
+
+link FA:
+ <script src="https://kit.fontawesome.com/3108b31b2a.js" crossorigin="anonymous"></script>
+
+main logo:
+<img src="https://raw.githubusercontent.com/Synnefo15/project_petani.com/main/petani.png">
