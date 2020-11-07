@@ -18,3 +18,6 @@ link FA:
 
 main logo:
 <img src="https://raw.githubusercontent.com/Synnefo15/project_petani.com/main/petani.png">
+
+===photo stock===
+homepage: https://www.pupuk-indonesia.com/public/uploads/2019/07/Foto51475739790_beritadetail1562901610_k3.jpg
