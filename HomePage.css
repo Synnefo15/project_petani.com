@@ -1,13 +1,13 @@
 /* * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
 } */
 
 body {
     font-family: "Poppins", sans-serif;
     /*  */
-    background-color: teal;
+    background: -webkit-linear-gradient(bottom, cyan, white);
 }
 
 .Logo-utama {
@@ -23,18 +23,12 @@ body {
 .nav-Links {
     justify-content: space-around;
     list-style: none;
-}
-
-.nav-Links {
-    color: #5f5f79;
+    color: black;
     font-size: 18px;
     text-decoration: none;
-}
-
-.nav-Links {
     display: flex;
-    background: aquamarine;
-    padding: 0px 0px;
+    background: #00cccc;
+    padding: 4px 0px;
 }
 
 .head1 {
@@ -83,7 +77,7 @@ body {
 }
 
 .gambar-utama #mainGambar {
-    background: gray;
+    background: white;
     padding: 10px 40px;
     position: relative;
     width: 80%;
@@ -96,11 +90,16 @@ body {
 .container {
     width: 800px;
     position: relative;
-    left: 17%;
+    border-radius: 20px;
     padding: 10px 30px;
-    background: #fbfbfb;
+    background: #ccffff;
     border-radius: 8px;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+    margin: 0;
+    width: 80%;
+    height: 500px;
+    left: 10%;
 }
 
 .container img {
@@ -142,23 +141,54 @@ body {
 }
 
 .container #radoc {
+    position: relative;
+    left: 60px;
+    top: 0px;
+}
+
+.container #img2 {
     position: absolute;
-    left: 90px;
-    top: 100px;
+    height: 120px;
+    width: 100px;
+    background-color: gray;
+    padding: 3px 3px;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px 0;
+    top: 60px;
 }
 
 .container #text1 {
     position: relative;
-    left: 140px;
-    top: 100px;
-    background: gray;
+    left: 190px;
+    top: 30px;
+    background: white;
     width: 670px;
+    border-radius: 20px;
+    padding: 3px 10px;
 }
 
 .container #text2 {
     position: relative;
-    left: 140px;
-    top: 140px;
-    background: gray;
+    left: 190px;
+    top: 55px;
+    background: white;
     width: 670px;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.container #img1 {
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    background-color: gray;
+    padding: 3px 3px;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px 0;
+    top: 320px;
+}
+
+.container #bio {
+    position: relative;
+    top: 65px;
 }
