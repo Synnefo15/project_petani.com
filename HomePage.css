@@ -1,0 +1,122 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /*  */
+    background-color: teal;
+}
+
+.Logo-utama {
+    position: relative;
+    left: 450px;
+    top: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.nav-Links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-Links {
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-Links {
+    display: flex;
+    background: aquamarine;
+    padding: 0px 0px;
+}
+
+.head1 {
+    display: flex;
+}
+
+.i-user {
+    position: relative;
+    left: 85%;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    padding: 0 8px;
+}
+
+.i-search {
+    position: relative;
+    left: 5%;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    padding: 0 8px;
+}
+
+.gambar-utama #logo {
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 70px;
+    top: 90px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px black;
+    opacity: 0.7;
+}
+
+.gambar-utama {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    left: 25%;
+}
+
+.gambar-utama #mainGambar {
+    background: gray;
+    padding: 10px 40px;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    width: 800px;
+    position: relative;
+    left: 17%;
+    padding: 20px 30px;
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container img {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 40px;
+}
+
+.container #img1 {
+    position: relative;
+    left: 37px;
+}
+
+
+/* .gambar-utama .capt1 {
+    font-size: 30px;
+    color: red;
+} */
