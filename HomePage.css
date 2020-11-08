@@ -5,7 +5,7 @@
 } */
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     /*  */
     background-color: teal;
 }
@@ -97,7 +97,7 @@ body {
     width: 800px;
     position: relative;
     left: 17%;
-    padding: 20px 30px;
+    padding: 10px 30px;
     background: #fbfbfb;
     border-radius: 8px;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
@@ -115,8 +115,50 @@ body {
     left: 37px;
 }
 
-
-/* .gambar-utama .capt1 {
+.gambar-utama .capt1 {
     font-size: 30px;
-    color: red;
-} */
+    color: gray;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+.gambar-utama .capt2 {
+    font-size: 30px;
+    color: gray;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+.container #radoc {
+    position: absolute;
+    left: 90px;
+    top: 100px;
+}
+
+.container #text1 {
+    position: relative;
+    left: 140px;
+    top: 100px;
+    background: gray;
+    width: 670px;
+}
+
+.container #text2 {
+    position: relative;
+    left: 140px;
+    top: 140px;
+    background: gray;
+    width: 670px;
+}
