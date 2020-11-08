@@ -13,11 +13,17 @@ biru
         height: 365px;margin: 7rem auto 11.2rem auto; 
         width: 350px;}
 
-link FA:
- <script src="https://kit.fontawesome.com/3108b31b2a.js" crossorigin="anonymous"></script>
+===link FA==
+ kits:	<script src="https://kit.fontawesome.com/3108b31b2a.js" crossorigin="anonymous"></script>
+
+
+===photo stock===
 
 main logo:
 <img src="https://raw.githubusercontent.com/Synnefo15/project_petani.com/main/petani.png">
 
-===photo stock===
-homepage: https://www.pupuk-indonesia.com/public/uploads/2019/07/Foto51475739790_beritadetail1562901610_k3.jpg
+===icon stock===
+<i class="fas fa-shopping-cart"> </i>
+<i class="fas fa-leaf"></i>
+<i class="fas fa-spray-can"></i>
+
