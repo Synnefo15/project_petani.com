@@ -27,3 +27,97 @@ main logo:
 <i class="fas fa-leaf"></i>
 <i class="fas fa-spray-can"></i>
 
+
+===template navbar vertikal===
+*css
+#body{background: -webkit-linear-gradient(bottom,cyan,white); 
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 8%;}
+
+.icon1{display: flex;}
+    
+#img1{height: 35px;
+    width: 35px;
+    margin-left: 2px;
+    margin-top: 9px;}
+    
+#img2{height: 35px;
+    margin-top: 10px;
+    }
+    
+#img3{height: 40px;
+    width: 40px;
+    margin-top: 1px;}
+    
+#img4{height: 55px;
+    width: 55px;}
+    
+#img5{height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 2px;}
+    
+#img6{height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 2px;}
+    
+.lingkaran{width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #b7d6d4;
+    text-align: center;
+    box-shadow: 1px 2px 2px black;}
+        
+.jarak{margin-top: 20px;}
+        
+.logo{height: 55px;
+    width: 235px;
+    border-radius: 15px;
+    background-color: #b7d6d4;
+    text-align: center;
+    margin-left: 37%;
+    box-shadow: 1px 2px 2px black}
+        
+.lingkaran1{margin-left: 37%;}
+        
+.icon2{display: block;}
+        
+.list{width: 55px;
+    height: 355px;
+    background-color: #b7d6d4;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 20px;}
+    
+*html
+<body id="body">
+    <div class="icon1">
+        <div class="lingkaran">
+            <img id="img1" src="135-search.png">
+        </div>
+        <div class="logo">
+            <img id="img2" src="petani.png">
+        </div>
+        <div class="lingkaran lingkaran1">
+            <a href="Login.html"><img id="img3" src="114-user.png"></a> 
+        </div>
+    </div>
+    <div class="icon2 list">
+        <div class="lingkaran">
+            <img id="img4" src="list.png">
+        </div>
+        <div class="lingkaran jarak">
+            <img id="img5" src="001-home.png">
+        </div>
+        <div class="lingkaran jarak">
+            <img id="img6" src="059-cart.png">
+        </div>
+        <div class="lingkaran jarak">
+            <img id="img1" src="165-leaf.png">
+        </div>
+        <div class="lingkaran jarak">
+            <img id="img1" src="012-droplet.png">
+        </div>
+    </div>
