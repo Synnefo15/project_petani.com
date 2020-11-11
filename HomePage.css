@@ -1,12 +1,5 @@
-/* * {
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-} */
-
 body {
     font-family: "Poppins", sans-serif;
-    /*  */
     background: -webkit-linear-gradient(bottom, cyan, white);
 }
 
@@ -191,4 +184,18 @@ body {
 .container #bio {
     position: relative;
     top: 65px;
+}
+
+#footer1 {
+    justify-content: space-around;
+    font-weight: 300;
+    display: flex;
+    margin: 10px 400px 0px;
+}
+
+#footer2 {
+    justify-content: space-around;
+    font-weight: bold;
+    display: flex;
+    margin: 0px 550px;
 }
