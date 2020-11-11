@@ -26,6 +26,8 @@ main logo:
 <i class="fas fa-shopping-cart"> </i>
 <i class="fas fa-leaf"></i>
 <i class="fas fa-spray-can"></i>
+<i class="fas fa-chevron-right"></i>
+<i class="fas fa-chevron-left"></i>
 
 
 ===template navbar vertikal===
