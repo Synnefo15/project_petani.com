@@ -108,7 +108,7 @@ body {
 }
 
 .gambar-utama .captall {
-    background-color: rgb(127, 255, 212);
+    background-color: white;
     border-radius: 8px;
     padding: 0px 10px;
     color: gray;
@@ -175,15 +175,6 @@ body {
     display: inline;
 }
 
-
-/* .container #but2 {
-    width: 80px;
-    border-radius: 5px;
-    position: relative;
-    top: 30px;
-    right: 135px;
-} */
-
 #footer1 {
     justify-content: space-around;
     font-weight: 300;
@@ -202,4 +193,21 @@ body {
     position: relative;
     top: 75px;
     padding: 0px 0px 8px 0px;
+}
+
+i {
+    font-size: 100px;
+    display: inline;
+}
+
+.arrowl {
+    position: absolute;
+    top: 730px;
+    left: 2%;
+}
+
+.arrowr {
+    position: absolute;
+    top: 730px;
+    left: 95%;
 }
