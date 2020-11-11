@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Abeezee;
+    src: url('ABeeZee-Regular.otf');
+}
+
+#body{background: -webkit-linear-gradient(bottom,cyan,white); 
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 90%;}
+
+.icon1{display: flex;}
+
+#img1{height: 35px;
+width: 35px;
+margin-left: 2px;
+margin-top: 9px;}
+
+#img2{height: 35px;
+margin-top: 10px;
+}
+
+#img3{height: 40px;
+width: 40px;
+margin-top: 1px;}
+
+#img4{height: 55px;
+width: 55px;}
+
+#img5{height: 40px;
+width: 40px;
+margin-top: 5px;
+margin-left: 2px;}
+
+#img6{height: 35px;
+width: 35px;
+margin-top: 10px;
+margin-left: 2px;}
+
+.lingkaran{width: 55px;
+height: 55px;
+border-radius: 100%;
+background-color: #b7d6d4;
+text-align: center;
+box-shadow: 1px 2px 2px black;}
+    
+.jarak{margin-top: 20px;}
+    
+.logo{height: 55px;
+width: 235px;
+border-radius: 15px;
+background-color: #b7d6d4;
+text-align: center;
+margin-left: 37%;
+box-shadow: 1px 2px 2px black}
+    
+.lingkaran1{margin-left: 37%;}
+    
+.icon2{display: block;}
+    
+.list{width: 55px;
+height: 355px;
+background-color: #b7d6d4;
+text-align: center;
+border-radius: 50px;
+margin-top: 20px;}
+
+#card{ background: #fbfbfb;
+border-radius: 8px;
+box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+height: 230%;
+position: absolute;
+left: 50%;
+top: 135%;
+transform: translate(-50%,-50%); 
+width: 80%;}
+
+#b1{rotate: 90deg;
+width: 40%;
+height: 75%;
+position: fixed;
+transform: translate(-70%,-31%);
+border-radius: 8px;}
+
+#b2{width: 30%;
+position: fixed;
+transform: translate(110%,15%);
+border: 10px solid blue;
+border-radius: 8px;}
+
+#b3{width: 7%;
+position: fixed;
+transform: translate(-50%,-50%);
+top: 31%;
+left: 90%;}
+
+.b4{width: 7%;
+height: 5%;
+border-radius: 100%;
+background: white;
+position: fixed;
+transform: translate(-50%,-50%);
+top: 31%;
+left: 90%;}
+
+.judul{font-family: Abeezee;
+margin-left: 25px;
+margin-top: 42%;
+font-size: 48px;
+width: 80%;}
+
+.judul2{display: flex;
+margin-left: 25px;
+margin-top: 1%;
+font-family: Abeezee;
+font-size: 24px;}
+
+.harga{
+margin-right: 10%;}
+
+.desc{display: block;
+margin-top: 6%;
+margin-left: 2%;
+font-family: Abeezee;}
+
+.size{font-size: 24px;}
+
+#mini_card{background: #b7d6d4;
+border-radius: 8px;
+width: 98%;
+margin-bottom: 3%;}
+
+.gambar{margin: 1%;
+font-family: Abeezee;
+display: flex;}
+
+#gambar{width: 5%;
+padding-top: 1%;}
+
+.bahan{padding-top: 2%;
+margin-left: 2%;
+font-size: 20px;}
+
+.text{margin-left: 8%;
+font-family: Abeezee;
+font-size: 20px;
+width: 90%;
+padding-bottom: 2%;}
+
+.close1{padding-bottom: 8%;
+position: absolute;
+transform: translate(-50%,-50%);
+text-align: left;}
+
+.top1{top: 115%;}
+
+.top2{top: 117%;}
+
+.left1{left: 30%;}
+
+.left2{left: 50%;}
+
+.left3{left: 70%;}
+
+.left4{left: 43%;}
+
+.left5{left: 57%;}
