@@ -50,7 +50,7 @@ body {
     width: 55px;
     height: 55px;
     border-radius: 100%;
-    background-color: #b7d6d4;
+    background-color: lightskyblue;
     text-align: center;
     box-shadow: 1px 2px 2px black;
 }
@@ -63,7 +63,7 @@ body {
     height: 55px;
     width: 235px;
     border-radius: 15px;
-    background-color: #b7d6d4;
+    background-color: white;
     text-align: center;
     margin-left: 37%;
     box-shadow: 1px 2px 2px black
@@ -80,7 +80,7 @@ body {
 .list {
     width: 55px;
     height: 355px;
-    background-color: #b7d6d4;
+    background-color: white;
     text-align: center;
     border-radius: 50px;
     margin-top: 20px;
@@ -158,7 +158,7 @@ left: 70px; */
 .phefoc,
 .saco {
     padding: 10px 40px 0px 30px;
-    background: aqua;
+    background: lightskyblue;
     font-weight: 400;
     color: black;
     margin: 15px;
@@ -210,4 +210,8 @@ i {
     position: absolute;
     top: 650px;
     left: 90%;
+}
+
+button:hover {
+    background-color: lightskyblue;
 }
