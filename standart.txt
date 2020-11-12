@@ -3,7 +3,10 @@
 
 
 ===warna=== 
-biru
+lightskyblue
+BG--linear-gradient(cyan, white)
+Icon--#b7d6d4
+ rgb(83, 171, 212)
 
 
 ===card===
@@ -28,7 +31,7 @@ main logo:
 <i class="fas fa-spray-can"></i>
 <i class="fas fa-chevron-right"></i>
 <i class="fas fa-chevron-left"></i>
-
+<i class="fas fa-money-check"></i>
 
 ===template navbar vertikal===
 *css
