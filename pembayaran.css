@@ -1,0 +1,233 @@
+body {
+    background-image: linear-gradient(cyan, white);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 20px;
+}
+
+
+/* .icon1,
+.icon2\list {
+    position: static;
+} */
+
+.icon1 {
+    display: flex;
+}
+
+#img1 {
+    height: 35px;
+    width: 35px;
+    margin-left: 2px;
+    margin-top: 9px;
+}
+
+#img2 {
+    height: 35px;
+    margin-top: 10px;
+}
+
+#img3 {
+    height: 40px;
+    width: 40px;
+    margin-top: 1px;
+}
+
+#img4 {
+    height: 55px;
+    width: 55px;
+}
+
+#img5 {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+#img6 {
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.lingkaran {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: lightskyblue;
+    text-align: center;
+    box-shadow: 1px 2px 2px black;
+}
+
+.jarak {
+    margin-top: 20px;
+}
+
+.logo {
+    height: 55px;
+    width: 235px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    margin-left: 37%;
+    box-shadow: 1px 2px 2px black
+}
+
+.lingkaran1 {
+    margin-left: 37%;
+}
+
+
+/* .icon2\list {
+    display: block;
+} */
+
+.list {
+    width: 55px;
+    height: 355px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.gambar-utama {
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    left: 25%;
+    top: 100px;
+}
+
+.gambar-utama #mainGambar {
+    background: white;
+    padding: 0px 0px 50px 120px;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    height: 70%;
+    width: 70%;
+}
+
+.gambar-utama .captall {
+    background-color: lightskyblue;
+    border-radius: 8px;
+    padding: 0px 10px;
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    top: 80px;
+    padding: 15px 20px;
+}
+
+table {
+    text-align: left;
+}
+
+.pesan {
+    background-color: white;
+    position: relative;
+    left: 25%;
+    padding: 20px 100px;
+    font-weight: lighter;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.head1 {
+    position: relative;
+    left: 45%;
+    background-color: rgb(83, 171, 212);
+    border-radius: 10px;
+    padding: 2px 4px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.barang {
+    background-color: white;
+    position: relative;
+    left: 30%;
+    padding: 25px 100px;
+    font-weight: lighter;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.head2 {
+    position: relative;
+    left: 45%;
+    background-color: rgb(83, 171, 212);
+    border-radius: 10px;
+    padding: 2px 4px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.bayar {
+    background-color: white;
+    position: relative;
+    left: 35%;
+    padding: 25px 100px;
+    font-weight: lighter;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.head3 {
+    position: relative;
+    left: 43%;
+    background-color: rgb(83, 171, 212);
+    border-radius: 10px;
+    padding: 2px 4px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+button {
+    border-radius: 5px;
+    width: 110px;
+    height: 60px;
+    position: relative;
+    left: 45%;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+#footer1 {
+    justify-content: space-around;
+    font-weight: 300;
+    display: flex;
+    margin: 10px 400px 0px;
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+
+#footer2 {
+    justify-content: space-around;
+    font-weight: bold;
+    display: flex;
+    margin: 0px 550px;
+    position: relative;
+    top: 140px;
+    padding: 0px 0px 8px 0px;
+}
