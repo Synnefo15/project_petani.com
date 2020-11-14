@@ -3,6 +3,9 @@ body {
     background: -webkit-linear-gradient(bottom, cyan, white);
 }
 
+a{text-decoration: none;
+color: black;}
+
 .Logo-utama {
     position: relative;
     left: 450px;
