@@ -79,15 +79,10 @@
             display: inline-block;
         }
         
-        .a1 {
-            text-decoration: none;
-            color: white;
-        }
+        .a1{text-decoration: none;color: black;}
+
+        .a2{text-decoration: none;color:white;}
         
-        .a2 {
-            text-decoration: none;
-            color: white;
-        }
     </style>
 </head>
 
@@ -102,8 +97,8 @@
         <form method="POST" class="form">
             <input id="form" type="text" placeholder=" Nomor Telepon" required>
             <div class="button">
-                <button id="button" class="back a2"><a href="registration.html">Back</a></button>
-                <button id="button" class="next a1"><a href="Verifikasi.html">Next</a></button>
+                <button id="button" class="back"><a class="a1" href="registration.html">Back</a></button>
+                <button id="button" class="next"><a class="a2" href="Verifikasi.html">Next</a></button>
             </div>
         </form>
     </div>
