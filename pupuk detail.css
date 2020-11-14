@@ -3,6 +3,9 @@
     src: url('ABeeZee-Regular.otf');
 }
 
+a{text-decoration: none;
+color: black;}
+
 #body{background: -webkit-linear-gradient(bottom,cyan,white); 
     width: 100%; 
     height: 100%;
