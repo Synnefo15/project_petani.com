@@ -1,0 +1,225 @@
+body {
+    background-image: linear-gradient(cyan, white);
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 20px;
+}
+
+
+/* .icon1,
+.icon2\list {
+    position: static;
+} */
+
+.icon1 {
+    display: flex;
+}
+
+#img1 {
+    height: 35px;
+    width: 35px;
+    margin-left: 2px;
+    margin-top: 9px;
+}
+
+#img2 {
+    height: 35px;
+    margin-top: 10px;
+}
+
+#img3 {
+    height: 40px;
+    width: 40px;
+    margin-top: 1px;
+}
+
+#img4 {
+    height: 55px;
+    width: 55px;
+}
+
+#img5 {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+#img6 {
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.lingkaran {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: lightskyblue;
+    text-align: center;
+    box-shadow: 1px 2px 2px black;
+}
+
+.jarak {
+    margin-top: 20px;
+}
+
+.logo {
+    height: 55px;
+    width: 235px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    margin-left: 37%;
+    box-shadow: 1px 2px 2px black;
+}
+
+.lingkaran1 {
+    margin-left: 37%;
+}
+
+.list {
+    width: 55px;
+    height: 355px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.gambar-utama {
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    left: 25%;
+    top: 100px;
+}
+
+.gambar-utama img {
+    background: lightskyblue;
+    padding: 0px 0px 50px 250px;
+    position: relative;
+    width: 80%;
+    height: 300px;
+    margin: 0px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.gambar-utama .captall {
+    background-color: rgb(83, 171, 212);
+    border-radius: 8px;
+    padding: 0px 10px;
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    top: 80px;
+    padding: 15px 20px;
+    /* background-color: gold; */
+}
+
+table {
+    text-align: left;
+}
+
+.produk1,
+.produk2,
+.produk3,
+.tab1,
+.tab2,
+.tab3 {
+    background-color: lightskyblue;
+}
+
+.produk1 {
+    position: relative;
+    left: 23%;
+    padding: 20px 40px;
+    font-weight: lighter;
+    /* margin: 20px; */
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 15%;
+    height: 15%;
+}
+
+.tab1 {
+    position: absolute;
+    left: 650px;
+    top: 110px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px 150px 10px 10px;
+}
+
+.produk2 {
+    position: relative;
+    left: 27px;
+    top: 360px;
+    padding: 20px 40px;
+    font-weight: lighter;
+    /* margin: 20px; */
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 15%;
+    height: 15%;
+}
+
+.tab2 {
+    position: absolute;
+    left: 650px;
+    top: 430px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px 150px 10px 10px;
+}
+
+.produk3 {
+    position: absolute;
+    top: 730px;
+    left: 330px;
+    padding: 20px 40px;
+    font-weight: lighter;
+    /* margin: 20px; */
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 245px;
+}
+
+.tab3 {
+    position: absolute;
+    left: 650px;
+    top: 800px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px 150px 10px 10px;
+}
+
+#footer1 {
+    justify-content: space-around;
+    font-weight: 300;
+    display: flex;
+    margin: 10px 400px 0px;
+    position: relative;
+    top: 850px;
+    left: 30px;
+}
+
+#footer2 {
+    justify-content: space-around;
+    font-weight: bold;
+    display: flex;
+    margin: 0px 550px;
+    position: relative;
+    top: 855px;
+    padding: 0px 0px 8px 0px;
+}
