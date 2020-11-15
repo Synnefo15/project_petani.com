@@ -5,8 +5,10 @@ body {
     margin: 20px 20px;
 }
 
-a{text-decoration: none;
-color: black;}
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .icon1 {
     display: flex;
@@ -213,4 +215,8 @@ i {
     position: absolute;
     top: 730px;
     left: 95%;
+}
+
+button:hover {
+    background-color: lightskyblue;
 }
