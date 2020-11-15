@@ -229,7 +229,33 @@ table {
     padding: 0px 0px 8px 0px;
 }
 
-.bayar {
-    width: 130px;
-    height: 80px;
+
+/* button {
+    border-radius: 5px;
+    width: 110px;
+    height: 60px;
+    position: relative;
+    left: 45%;
+    font-size: 30px;
+    top: 2000px;
+}
+
+button:hover {
+    background-color: lightskyblue;
+} */
+
+.pembayaran {
+    position: relative;
+    top: 90px;
+    right: 50px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    width: 150px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pembayaran :hover {
+    background: white;
 }
