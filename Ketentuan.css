@@ -1,7 +1,7 @@
 #body{background: -webkit-linear-gradient(bottom,cyan,white); 
 width: 100%; 
 height: 100%;
-margin-bottom: 35%;}
+margin-bottom: 37%;}
 
 a{text-decoration: none;
 color: black;}
@@ -76,7 +76,7 @@ width: 80%;}
 
 #close{display: flex;}
 
-.close1{padding-bottom: 8%;
+.close1{padding-bottom: 4%;
 position: absolute;
 transform: translate(-50%,-50%);
 text-align: left;}
