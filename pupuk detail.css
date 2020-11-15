@@ -114,10 +114,10 @@ a {
 }
 
 #b1 {
+    position: fixed;
     rotate: 90deg;
     width: 40%;
     height: 75%;
-    position: fixed;
     transform: translate(-70%, -31%);
     border-radius: 8px;
 }
